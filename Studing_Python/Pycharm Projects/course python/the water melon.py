@@ -1,0 +1,31 @@
+import turtle
+
+t = turtle.Turtle()
+wn = turtle.Screen()
+wn.colormode(255)
+t.color(188,218,81)
+
+t.penup()
+t.sety(50)
+t.setx(50)
+t.pendown()
+
+t.begin_fill()
+t.right(90)
+t.circle(-100, 180)
+t.left(90)
+t.forward(30)
+t.left(90)
+t.circle(130, 180)
+t.left(90)
+t.forward(30)
+t.end_fill()
+
+t.fillcolor("red")
+t.begin_fill()
+t.forward(200)
+t.left(90)
+t.circle(100, 180)
+t.end_fill()
+t.penup()
+t.setx(-20)

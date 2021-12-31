@@ -1,0 +1,11 @@
+name = input("Enter Your name: ")
+Age = input("Enter Your Age: ")
+Brothers = int(input("Enter your number of brothers: "))
+Sisters = int(input("Enter your number of Sisters: "))
+Feedback = input("Your feedback: ")
+
+print("My name is "+name)
+print("My age is ", Age)
+print("I have ", Brothers ," brother and ", Sisters ," sister")
+print(Feedback)
+print("Good bye")

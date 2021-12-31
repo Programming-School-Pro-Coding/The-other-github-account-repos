@@ -1,0 +1,213 @@
+:root {
+          --parent-width: 160px;
+          --parent-height: 50px;
+          --link-width: 30px;
+          --color-bg: #00e9e9;
+          --color-parent: white;
+          --color-overlay: #1e6cfb;
+          --default-padding: 10px;
+          --timing-animation: .3s;
+          --color-text: gray;
+}
+
+body {
+          margin: 0;
+}
+
+.container {
+          background-color: var(--color-bg);
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.container .shareButtons {
+          position: relative;
+          width: var(--parent-width);
+          height: var(--parent-height);
+          background-color: var(--color-parent);
+          padding: 0 var(--default-padding);
+          border-radius: 30px;
+          overflow: hidden;
+}
+
+.container .shareButtons_text {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--color-text);
+}
+
+.container .shareButtons .shareButtons_img {
+          width: 60%;
+          height: 60%;
+}
+
+.container .shareButtons .shareButtons_overlay {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          background-color: transparent;
+          transition: all var(--timing-animation);
+}
+
+.container .shareButtons .shareButtons_links {
+          position: relative;
+          display: flex;
+          transition: all var(--timing-animation);
+}
+
+.container .shareButtons .shareButtons_links .shareButtons_link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: var(--default-padding) calc(var(--default-padding) / 2);
+          width: var(--link-width);
+          height: var(--link-width);
+          background-color: var(--color-parent);
+          border-radius: 50%;
+          cursor: pointer;
+          transform: translateY(calc(100% * 2));
+          transition: all var(--timing-animation) ease-in-out;
+}
+
+.shareButtons:hover .shareButtons_overlay {
+          background-color: var(--color-overlay);
+}
+
+.shareButtons:hover .shareButtons_link {
+          transform: translateY(0);
+}
+
+.shareButtons_link:nth-child(1) {
+          transition-delay: 0s;
+}
+
+.shareButtons_link:nth-child(2) {
+          transition-delay: .05s;
+}
+
+.shareButtons_link:nth-child(3) {
+          transition-delay: .1s;
+}
+
+.shareButtons_link:nth-child(4) {
+          transition-delay: .15s;
+}
+
+:root {
+          --parent-width: 160px;
+          --parent-height: 50px;
+          --link-width: 30px;
+          --color-bg: #00e9e9;
+          --color-parent: white;
+          --color-overlay: #1e6cfb;
+          --default-padding: 10px;
+          --timing-animation: .2s;
+          --color-text: gray;
+}
+
+body {
+          margin: 0;
+}
+
+.container {
+          background-color: var(--color-bg);
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.shareButtons {
+          position: relative;
+          width: var(--parent-width);
+          height: var(--parent-height);
+          background-color: var(--color-parent);
+          padding: 0 var(--default-padding);
+          border-radius: 25px;
+          overflow: hidden;
+}
+
+.shareButtons__text {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          font-family: Helvetica, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--color-text);
+}
+
+.container .shareButtons .shareButtons_links .shareButtons_link .img {
+          width: 60%;
+          height: 60%;
+}
+
+.shareButtons__overlay {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          background-color: transparent;
+          transition: all var(--timing-animation);
+}
+
+.shareButtons__links {
+          position: relative;
+          display: flex;
+          transition: all var(--timing-animation);
+}
+
+.shareButtons__link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: var(--default-padding) calc(var(--default-padding) / 2);
+          width: var(--link-width);
+          height: var(--link-width);
+          background-color: var(--color-parent);
+          border-radius: 50%;
+          cursor: pointer;
+          transform: translateY(calc(100% * 2));
+          transition: all var(--timing-animation) ease-in-out;
+}
+
+.shareButtons:hover .shareButtons__overlay {
+          background-color: var(--color-overlay);
+}
+
+.shareButtons:hover .shareButtons__link {
+          transform: translateY(0);
+}
+
+.shareButtons__link:nth-child(1) {
+          transition-delay: 0s;
+}
+
+.shareButtons__link:nth-child(2) {
+          transition-delay: .05s;
+}
+
+.shareButtons__link:nth-child(3) {
+          transition-delay: .1s;
+}
+
+.shareButtons__link:nth-child(4) {
+          transition-delay: .15s;
+}

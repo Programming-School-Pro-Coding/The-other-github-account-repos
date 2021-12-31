@@ -1,0 +1,15 @@
+#max {
+          max-width: 40px;
+          max-height: 40px;
+}
+ 
+iframe {
+          padding-left: 30px;
+          width: 1300px;
+          height: 600px;
+          align-items: center;
+}
+
+header {
+          background-color: rgb(86, 61, 124);
+}

@@ -1,0 +1,304 @@
+*{
+
+          padding:0;
+          margin: 0;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background-attachment: fixed;
+          font-family: "Sofia", sans-serif;
+          font-family: "Audiowide", sans-serif;
+          font-family: "Sofia", sans-serif;
+          font-size: 20px;
+          text-shadow: 3px 3px 3px #ababab;
+          /* background: url("Colorful Foundational Problem Statement Brainstorm Presentation.gif"); */
+}
+video {
+    width: 50%;
+}
+
+#P {
+    background-image: url(1.png);
+}
+
+body{
+          position: relative;
+          background-image: url(2.png);
+}
+.top{
+          position:fixed;
+          top: 0;
+          left: 0;
+          display: block;
+          background-color: rgb(80, 80, 168);
+          width: 100%;
+          padding: initial 20px;
+          font-size: 1em;
+          text-align: center;
+          height: 10%;
+}
+
+
+
+.top ul{
+          list-style: none;
+          float: right;
+          color: white;
+          margin-bottom: 50px;
+}
+.top ul li{
+          display: block;
+          float: left;
+          margin: 4px;
+          padding:10px;
+          color: wheat;
+}
+/* details {
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: rgb(80, 80, 168);
+    width: 100%;
+    padding: initial 20px;
+    font-size: 1.2em;
+    text-align: center;
+} */
+.logo{
+          float: left;
+          color: silver;
+          padding-left: 10px;          90rflow: hidden;        9x-w;
+          border-radius: 10px;
+        dth: 100px;
+          max-height: 65px;
+}
+
+.logo div {
+          width: 20px;
+          height: 100px;
+          background-color: red;
+          border-radius: 208px;
+          animation-name: hanafy;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+}
+
+@keyframes hanafy {
+          0% {
+                    background-color: red;
+                    margin: 0%;
+          }
+          50% {
+                    background-color: yellow;
+                    margin: 0%;
+          }
+          100% {
+                    background-color: red;
+                    margin: 0%;
+          }
+}
+
+.main{
+          position: absolute;
+          top: 130px;
+          width: 60%;
+          left: 25%;
+          padding:2%;
+}
+      
+.main h1{
+          border-bottom: 4px navy solid;
+          margin-bottom: 15px;
+}
+      
+.main p{
+          color: darkslategray;    
+}
+.main details {
+    color: darkslategray;
+}
+      
+.side{
+          position: absolute;
+          float: left;
+          height: 100vh;
+          width: 25%;
+          top: 220px;
+      
+      
+}
+      
+.side ul{
+          padding-left: 25px;
+          list-style: none;
+      
+}
+      
+.side ul li{
+          padding: 15px;
+          font-size: 1.3em;
+}
+      
+.side ul li a{
+          text-decoration: none;
+          color: greenyellow;
+}
+      
+.side ul li:hover{
+          padding: 10px;
+          border-bottom: 2px blueviolet solid;
+          font-size: 1.5em;
+          color:navy;
+}
+
+.a_tag {
+    text-decoration: none;
+    padding: 10px;
+    margin : Auto;
+    align-items: center;
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+/* .p {
+    background-image: url(resize.jpg);
+} */
+
+.pro {
+          text-align: center;
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 4mm;
+}
+
+.proo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.project {
+    text-decoration: none;
+    padding: 10px;
+    margin : Auto;
+    align-items: center;
+    position: relative;
+    background-color: #00002e;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.projects {
+    text-decoration: none;
+    padding: 10px;
+    margin-top : 30px;
+    align-items: center;
+    position: relative;
+    background-color: #00002e;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.projectss {
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top : 35px;
+    align-items: right;
+    position: relative;
+    background-color: #00002e;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.square {
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top : 20px;
+    align-items: right;
+    position: relative;
+    background-color: #00002e;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.analyzer {
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top : 10px;
+    align-items: right;
+    position: relative;
+    background-color: #00002e;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.command {
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top : 5px;
+    align-items: right;
+    position: relative;
+    background-color: #00002e;
+    overflow: hidden;
+    float: right;
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}

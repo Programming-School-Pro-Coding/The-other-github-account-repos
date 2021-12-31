@@ -1,0 +1,33 @@
+*{
+    background-image: url(cyan_magenta__wallpaper_sketch__by_sandwichhorsearchive_d6pjrnz.png);
+    color: yellowgreen;
+}
+
+.code {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    float: center;
+}
+#h1 {
+    color: #9bef45;
+    text-align: center;
+}
+
+img {
+    display: block;
+    /* margin-left: var(--yt-img-margin-left, auto);
+    margin-right: var(--yt-img-margin-right, auto);
+    max-height: var(--yt-img-max-height, none);
+    max-width: var(--yt-img-max-width, 50%); */
+    border-radius: var(--yt-img-border-radius, none);
+}
+#text {
+    display: var(--ytd-channel-name-text-display);
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--ytd-channel-name-text-line-clamp, inherit);
+    word-break: break-word;
+    font-size: var(--ytd-channel-name-text_-_font-size);
+    font-weight: var(--ytd-channel-name-text_-_font-weight);
+    line-height: var(--ytd-channel-name-text_-_line-height);
+}

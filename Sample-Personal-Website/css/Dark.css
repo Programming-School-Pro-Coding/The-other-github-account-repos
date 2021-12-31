@@ -1,0 +1,14 @@
+body {
+          background-color: #222;
+          color: white;
+}
+
+.container {
+          background-color: #222;
+          color: white;
+}
+
+.container .container__content {
+          background-color: #222;
+          color: white;
+}
